@@ -6,25 +6,35 @@ html, body {
 	height: 700px;
 	margin-top: 50px;
 	width: 1000px;
-	border: 3px solid green; 
+	border: 3px solid #a31; 
+}
+
+.leftField{
+
 }
 
 .loganPicLeft{
 	height: 134px;
 	width: auto;
-	z-index: 10;
 	border-right: 3px solid #a31;
 	border-bottom: 3px solid #a31;
 }
 
+.rightField{
+	margin: -705px 0px 0px 897px;
+}
 .loganPicRight{
-	float: right;
 	height: 134px;
 	width: auto;
-	z-index: 10;
 	border-left: 3px solid #a31;
 	border-bottom: 3px solid #a31;
 }
-
+.halfFieldDashedLine{
+	margin:-705px 0px 0px 500px;
+	position: absolute;
+	height: 700px;
+	width: 1px;
+	border: 1px dashed #a31;
+}
 
 
